@@ -7,7 +7,7 @@ It's Tetris.
 ## Software Analysis
 It's made using C++ and the SFML library. I'm using these as C++ is my preferred language and SFML is a reasonably lightweight graphics library that fits a task like this.
 
-Usually when making games, I directly manipulate the objects that get visibly drawn to the screen, but for this project I'll be using a 2D array of characters. I'll then use SFML to 'read' my array of characters and represent them on the screen using a specific texture for each character.
+Usually when making games, I directly manipulate the objects that get visibly drawn to the screen, but for this project I'll be manipulating a 2D array of characters. I'll then use SFML to 'read' my array of characters and represent them on the screen using a specific texture for each character.
 
 ## Learning purpose
 Tetris has been on my bucket list for quite a while. It's more complicated than Snake mainly due to the math required to rotate the falling pieces, but also due to the collision physics involved in the game. Still, I already have quite a good grasp on both of these subjects so I think the task will be easy enough for me to complete within a week.
