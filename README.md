@@ -1,6 +1,8 @@
 # Tetris-SFML-
 A Tetris game made in C++ using SFML library.
 
+![tetris_scrnshot](https://user-images.githubusercontent.com/31830553/69095053-d88d7780-0a51-11ea-931b-ee0abbd12080.png)
+
 ## Features
 It's Tetris.
 
