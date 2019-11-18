@@ -1,4 +1,4 @@
-#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup") //prevent the console from opening
+#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup") //prevents the console from opening
 #include<SFML\Graphics.hpp>
 #include <SFML\Audio.hpp>
 
