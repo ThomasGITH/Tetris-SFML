@@ -108,6 +108,7 @@ int main()
 	sf::Music track;
 	track.openFromFile("sounds/tetris_theme.wav");
 	track.play();
+	track.setLoop(true);
 
 	//Sound effects
 	sf::SoundBuffer buffer;
