@@ -11,7 +11,7 @@ Use the 'up' arrow to rotate a falling piece.
 Use the 'down' arrow key to increase the falling-speed of a piece.
 
 Build horizontal lines of blocks/tiles for the lines to 'collapse' and to gain points from them.
-The game is over when the block/tiles (attempt to) reach outside of the window on the y-axis.
+The game is over when the blocks/tiles (attempt to) reach outside of the window on the y-axis.
 
 ## Software Analysis
 It's made using C++ and the SFML library. I'm using these as C++ is my preferred language and SFML is a reasonably lightweight graphics library that fits a task like this. 
