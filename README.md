@@ -7,7 +7,13 @@ A Tetris game made in C++ using SFML library.
 It's Tetris.
 
 ## Software Analysis
-It's made using C++ and the SFML library. I'm using these as C++ is my preferred language and SFML is a reasonably lightweight graphics library that fits a task like this.
+It's made using C++ and the SFML library. I'm using these as C++ is my preferred language and SFML is a reasonably lightweight graphics library that fits a task like this. 
+
+My second pick would have been Javascript. It was quite hard for me to decide between the two. Tetris is a game perfect to run in the browser, and Javascript itself is very lightweight and does not require any additional (graphics) libraries to display the game since you can just use its built-in canvas. I ended up choosing C++/SFML anyway since I liked the idea of having my own desktop-version of the game and I didn't want to make it myself too easy.
+
+I also considered using Java, but quickly dismissed that idea as I did not see any specific advantage of doing so except that it might be more portable. If I had decided to use it, then I'd probably have used JavaFX to display the game's visuals.
+
+The thoughts of using either the Unity engine or the 'Phaser' framework also crossed my mind, but were both quickly dismissed as using Unity would have been overkill, and using Phaser would just have been unnecessary since native Javascript already has everything that you might need for a task like this.
 
 Usually when making games, I directly manipulate the objects that get visibly drawn to the screen, but for this project I'll be manipulating a 2D array of characters. I'll then use SFML to 'read' my array of characters and represent them on the screen using a specific texture for each character.
 
